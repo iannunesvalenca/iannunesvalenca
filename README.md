@@ -1,21 +1,21 @@
 <p align="center">
-  <img src="./ian-valenca-8bit-dna-banner.png" alt="Ian N. Valença — pixel-art name banner with a winding DNA helix on a dark background" width="100%" />
+  <img src="./ian-valenca-8bit-dna-banner.png" alt="Ian N. Valença pixel-art banner with a DNA helix on a dark background" width="100%" />
 </p>
 
 ## About
 
-Bioinformatics & computational genomics — building reproducible workflows and lightweight research tools for **viral discovery**, **metagenomics**, and **microbial whole-genome sequencing (Oxford Nanopore & Illumina)**.
+I work in bioinformatics and genomics. Most of my code is for viral discovery, metagenomics, and bacterial whole-genome sequencing using Oxford Nanopore and Illumina data.
 
-## Featured Public Projects
+## Public Projects
 
-| Project | Description | Stack |
+| Project | What it does | Stack |
 | :--- | :--- | :--- |
-| [**paperfeed**](https://github.com/iannunesvalenca/paperfeed) ([Live App](https://paperfeed-app.vercel.app/)) | Personalized academic paper feed aggregating PubMed, bioRxiv, medRxiv, and arXiv with topic-weighted scoring and instant filtering. | Python, FastAPI, Vercel |
-| [**pdr-pseudomonas-aeruginosa-wgs-pipeline**](https://github.com/iannunesvalenca/pdr-pseudomonas-aeruginosa-wgs-pipeline) | Reproducible paired Oxford Nanopore WGS analysis pipeline for *Pseudomonas aeruginosa* isolates (QC, Flye/Medaka assembly, MLST, AMR/virulence, Bakta, IntegronFinder, SNP validation, and figures). | Bash, Python, Micromamba |
-| [**diamond-db-filter**](https://github.com/iannunesvalenca/diamond-db-filter) | Low-memory split-and-filter workflow for constructing custom microbial + human DIAMOND protein databases from NCBI NR (~186 GB → ~12 GB) on workstation hardware. | Bash, Python, DIAMOND, SeqKit |
+| [**paperfeed**](https://github.com/iannunesvalenca/paperfeed) ([Live app](https://paperfeed-app.vercel.app/)) | Pulls recent papers from PubMed, bioRxiv, medRxiv, and arXiv, then ranks them by topics you care about. | Python, FastAPI, Vercel |
+| [**pdr-pseudomonas-aeruginosa-wgs-pipeline**](https://github.com/iannunesvalenca/pdr-pseudomonas-aeruginosa-wgs-pipeline) | Analysis pipeline for paired Oxford Nanopore *Pseudomonas aeruginosa* genomes, from read QC and assembly to AMR, annotation, SNPs, and figures. | Bash, Python, Micromamba |
+| [**diamond-db-filter**](https://github.com/iannunesvalenca/diamond-db-filter) | Scripts for filtering NCBI NR into a smaller microbial and human DIAMOND database (~12 GB) without running out of RAM. | Bash, Python, DIAMOND, SeqKit |
 
-## Focus Areas & Tooling
+## What I Use
 
-- **Genomics & Metagenomics:** Oxford Nanopore bacterial WGS, viral metagenomics, AMR & mobile-element profiling, taxonomy curation
-- **Workflows & Reproducibility:** Nextflow, Snakemake, Micromamba / Conda, Bash
-- **Programming & ML:** Python, FastAPI, pandas, XGBoost
+- **Genomics:** Nanopore bacterial WGS, viral metagenomics, AMR screening, and taxonomy filtering
+- **Pipelines:** Nextflow, Snakemake, Micromamba, Bash
+- **Code & ML:** Python, FastAPI, pandas, XGBoost
